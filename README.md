@@ -39,16 +39,16 @@ The dataset had 12 features and 24,997 observations.
 | variety       | string        | Variety of grape                               |
 | winery        | string        |                                                |
 
-![]('images/wine_production_country.png')
+![](images/wine_production_country.png)
 
 The data was collected from 37 countries and 9000 wineries with 450 different varieties of grapes. The price range for wines were $4 to $780. Though points were on 100 point scale, all the points were ranked between 80 and 100.  
 !['Price Vs Points Comparison]('images/priceVspoints.png')
 
 Here are some of the features that seem to have co-relation to the points. 
 
-!['Countries']('box_country_points.png')
+!['Countries'](box_country_points.png)
 
-!['Province']('box_province_points.png	')
+!['Province'](box_province_points.png)
 
 The dataset had 3 numerical features and 7 categorical. After converting select features into numerical and cleaning up null values, final dataset was 24,989 rwos and 10,773 clolumns.
 
