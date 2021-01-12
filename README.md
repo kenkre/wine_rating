@@ -42,13 +42,13 @@ The dataset had 12 features and 24,997 observations.
 ![](images/wine_production_country.png)
 
 The data was collected from 37 countries and 9000 wineries with 450 different varieties of grapes. The price range for wines were $4 to $780. Though points were on 100 point scale, all the points were ranked between 80 and 100.  
-!['Price Vs Points Comparison]('images/priceVspoints.png')
+![](images/priceVspoints.png)
 
 Here are some of the features that seem to have co-relation to the points. 
 
-!['Countries'](box_country_points.png)
+![](images/box_country_points.png)
 
-!['Province'](box_province_points.png)
+![](images/box_province_points.png)
 
 The dataset had 3 numerical features and 7 categorical. After converting select features into numerical and cleaning up null values, final dataset was 24,989 rwos and 10,773 clolumns.
 
@@ -73,12 +73,7 @@ My winning model was a Random Forest Regressor; XG Boost was a close second with
 
 ## Next Steps
 
-- Do a grid search to refine my models. 
-- Graph the ROC curves of my models to compare their shapes.
-- Do a little feature importance and figure out what words help indicate a lie.
-- Consider separating the data in different ways:
-    - by democrats and republicans to see if there are differences in how they lie and about what.
-    - by speakers who are individuals and speakers who are not (facebook posts, bloggers, etc.). Looking at the data it seems those labeled as individuals are statements that are spoken whereas facebook posts and blogs are written. There is likely a difference in words used when speaking vs writing.
+- Try Classification Models
 
 ## Main Python Libraries
 
@@ -95,7 +90,5 @@ My winning model was a Random Forest Regressor; XG Boost was a close second with
 
 ## Code Files
 
-- clean_data.py : functions that read in the data, clean it, and transform it
-- modeling.py : functions to fit and score models and some sample code in main to use these functions
-- plots.py : functions that create graphs to view data
-- data-exploration.ipynb : example code to explore and graph data
+- wine_rating_data_load_n_EDA.ipynb : Load wine data and perform EDA
+- wine_rating_models_final.ipynb : Build and test different models
