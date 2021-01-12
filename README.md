@@ -20,28 +20,29 @@ The dataset can be found [here](https://data.world/markpowell/global-wine-points
 The dataset had 12 features and 24,997 observations. 
 
 
-| COLUMN NAME   | TYPE          | DESCRIPTION                                    |
-| ------------- |:-------------:| ----------------------------------------------:|
-| vintage       | date          | Year that the grapes were harvested            |
-| country       | string        |                                                |
-| county        | string        |                                                |
-| designation   | string        |                                                |
-| points        | integer       | 95-100 Classic: a great wine 90-94             |
-|               |               | Outstanding: a wine of superior character      |
-|               |               | and style 85-89 Very good: a wine with special |
-|               |               | qualities 80-84 Good: a solid, well-made wine  |
-|               |               | 75-79 Mediocre: a drinkable wine that may have |
-|               |               | minor flaws 50-74 Not rated                    |
-| price         | decimal       | Price per bottle in USD                        |
-| province      | string        |                                                |
-| State         | string        |                                                |
-| title         | string        | Wine label, brand                              |
-| variety       | string        | Variety of grape                               |
-| winery        | string        |                                                |
+| COLUMN NAME   | TYPE          | DESCRIPTION                                              |
+| ------------- |:-------------:| --------------------------------------------------------:|
+| vintage       | date          | Year that the grapes were harvested                      |
+| country       | string        |                                                          |
+| county        | string        |                                                          |
+| designation   | string        |                                                          |
+| points        | integer       | 95-100 Classic: a great wine                             |
+|               |               | 90-94 Outstanding: a wine of superior character and style|
+|               |               | 85-89 Very good: a wine with special qualities           |
+|               |               | 80-84 Good: a solid, well-made wine                      |
+|               |               | 75-79 Mediocre: drinkable wine that may have minor flaws |
+|               |               | 50-74 Not rated                                          |
+| price         | decimal       | Price per bottle in USD                                  |
+| province      | string        |                                                          |
+| State         | string        |                                                          |
+| title         | string        | Wine label, brand                                        |
+| variety       | string        | Variety of grape                                         |
+| winery        | string        |                                                          |
 
 ![](images/wine_production_country.png)
 
 The data was collected from 37 countries and 9000 wineries with 450 different varieties of grapes. The price range for wines were $4 to $780. Though points were on 100 point scale, all the points were ranked between 80 and 100.  
+
 ![](images/priceVspoints.png)
 
 Here are some of the features that seem to have co-relation to the points. 
