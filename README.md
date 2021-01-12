@@ -21,7 +21,7 @@ The dataset had 12 features and 24,997 observations.
 
 
 | COLUMN NAME   | TYPE          | DESCRIPTION                                              |
-| ------------- |:-------------:| --------------------------------------------------------:|
+| ------------- |:-------------:|:---------------------------------------------------------|
 | vintage       | date          | Year that the grapes were harvested                      |
 | country       | string        |                                                          |
 | county        | string        |                                                          |
@@ -43,7 +43,6 @@ The dataset had 12 features and 24,997 observations.
 
 The data was collected from 37 countries and 9000 wineries with 450 different varieties of grapes. The price range for wines were $4 to $780. Though points were on 100 point scale, all the points were ranked between 80 and 100.  
 
-![](images/priceVspoints.png)
 Here are some of the features that seem to have co-relation to the points. 
 
 ![](images/box_country_points.png)
